@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+img{
+    width: 30%;
+    
+
+}
+
+.section {
+    background-image: linear-gradient(to right, #3B7BA7, #3B7BA7 50%, white 50%, white)
+}
+.section--impair {
+    background-image: linear-gradient(to right, rgb(42, 88, 119), rgb(42, 88, 119) 50%, white 50%, white)
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+  
+}
+
+.container--header {
+    height: 100vh; 
+}
+
+.aside {
+    width: 300px;
+    flex: none;
+	background-color:#3B7BA7;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.section--impair .aside {
+    background: rgb(42, 88, 119);
+    align-items: center;
+
+}
+
+.section--impair .main {
+    background-color: gray;
+    
+}
+
+.main {
+    display: flex;
+    flex: auto;
+	background-color:white;
+    padding: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+.premiernom{
+    font-size: 60px;
+    
+}
+
+.deuxiemenom{
+    font-size: 60px;
+    color: #7ba73b;
+}
+.troisiemenom{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #939393;
+}
+
+.image {
+    border-radius: 50%;
+    width: 100%;
+}
+table{
+    font-family: "Times New Roman", Times, serif;
+}
+th{
+
+    align-items:flex-start;
+}
+.cartouche{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    border-top:solid;
+    border-top-color: #939393;
+    bottom:30px;
+    width: 100%;
+}
+.file th {
+    text-align: left;
+}
+.motivation{
+    font-family: Lato; 
+    font:#333;
+    line-height:1.75;
+    font-size: 20px;
+
+   
+
+}
